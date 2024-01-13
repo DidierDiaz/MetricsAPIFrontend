@@ -1,0 +1,53 @@
+<h1 mat-dialog-title>
+    Lista de Datos
+</h1>
+
+<div mat-dialog-content>
+    <table class="table table-hover table-striped" *ngIf="data.type == 'inheritance' || data.type == 'classCoupling'">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Method</th>
+                <th>Path</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let value of values">
+                <td>
+                    <span class="text-muted">{{value.id}}</span>
+                </td>
+                <td>{{value.method}}</td>
+                <td>{{value.path}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="table table-hover table-striped" *ngIf="data.type == 'linesOfCode'">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Language</th>
+                <th>Lines</th>
+                <th>File</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let value of values">
+                <td>
+                    <span class="text-muted">{{value.id}}</span>
+                </td>
+                <td>{{value.language}}</td>
+                <td>{{value.lines}}</td>
+                <td>{{value.file}}</td>
+                <td>{{value.comments}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div mat-dialog-actions>
+    <button mat-button mat-dialog-close>Cerrar</button>
+</div>

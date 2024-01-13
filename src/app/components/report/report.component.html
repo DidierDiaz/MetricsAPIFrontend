@@ -1,0 +1,41 @@
+<div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-4">
+            <div class="card border-top border-success shadow-sm cursor-click" (click)="listValues('inheritance')">
+                <div class="card-body">
+                    <h4 class="text-success">Depth of Inheritance</h4>
+                    <h2>{{report.inheritance}}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-4">
+            <div class="card border-top border-warning shadow-sm cursor-click" (click)="listValues('linesOfCode')">
+                <div class="card-body">
+                    <h4 class="text-warning">Lines of Source Code</h4>
+                    <h2>{{report.linesOfCode}}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-4">
+            <div class="card border-top border-info shadow-sm cursor-click" (click)="listValues('classCoupling')">
+                <div class="card-body">
+                    <h4 class="text-info">Class Coupling</h4>
+                    <h2>{{report.classCoupling}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-12 col-sm-12 col-md-4" *ngIf="report.inheritance && report.classCoupling && report.linesOfCode">
+            <div class="card border-top border-primary shadow-sm">
+                <div class="card-body">
+                    <h4 class="text-primary">Metrica</h4>
+                    <h2>{{(0.29 * report.inheritance + 0.24 * report.classCoupling + 0.48 * report.linesOfCode) | number: '1.3-3'}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
