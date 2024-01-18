@@ -25,7 +25,7 @@ Proyecto escrito en .NET Core 6
 
 ## Requisitos para ejecutar el API
 - [Angular](https://angular.io/).
-- [Visual Studio Code](https://visualstudio.microsoft.com/es/vs/).
+- [Visual Studio Code](https://visualstudio.microsoft.com/es/downloads/).
 - [Download API Backend](https://github.com/DidierDiaz/Metrics-Toggles-Debt).
 
 # MetricsUi
