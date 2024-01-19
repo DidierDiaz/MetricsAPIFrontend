@@ -32,3 +32,7 @@ Proyecto escrito en .NET Core 6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
+# Formula & Metrica. 
+
+- Metrica = Peso 1*Normalización Depth of Inheritance + Peso 2* Normalización Class Coupling + Peso 3* Normalización Lines of Source code.
+- Formula = 0,29*0,12+ 0,24* 0,13 + 0,48*0,18.
