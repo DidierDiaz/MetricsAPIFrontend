@@ -17,17 +17,16 @@ Proponer una metrica de deuda tecnica basada en el analisis de las metricas más
 Proyecto escrito en .NET Core 6
 * [Requirements](#requirements)
 * [Installation](#installation)
-* [Quickstart](#quickstart)
-* [Usage](#usage)
-* [Tests](#tests)
 * [SDK Reference](#sdk-reference)
-* [Deprecated APIs](#deprecated-apis)
 
 ## Requisitos para ejecutar el API
 - [Angular](https://angular.io/).
 - [Visual Studio Code](https://visualstudio.microsoft.com/es/downloads/).
 - [Download API Backend](https://github.com/DidierDiaz/Metrics-Toggles-Debt).
-
+  
+## SDK Reference
+- https://github.com/square/square-python-sdk/
+  
 # MetricsUi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
