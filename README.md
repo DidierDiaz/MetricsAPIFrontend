@@ -34,4 +34,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Formula & Metrica. 
 
 - Metrica = Peso 1*Normalización Depth of Inheritance + Peso 2* Normalización Class Coupling + Peso 3* Normalización Lines of Source code.
-- Formula = 0,29*0,12+ 0,24* 0,13 + 0,48*0,18.
+- Formula = 0,29*0,12 + 0,24*0,13 + 0,48*0,18.
