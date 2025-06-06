@@ -17,7 +17,7 @@ Proponer una metrica de deuda tecnica basada en el analisis de las metricas más
 ![image](https://github.com/DidierDiaz/MetricsAPIFrontend/assets/22352012/04a36025-bb06-4911-bad4-a9fd65cd063d)
 
 # 📊 Metrics Toggles-Debt
-Proyecto escrito en .NET Core 6
+Proyecto escrito en .NET Core 8.
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [SDK Reference](#sdk-reference)
